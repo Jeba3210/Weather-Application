@@ -19,7 +19,7 @@ function iframeUpdate(latitude,longitude){
 }
 
 function latitude_Longitude(latitude, longitude) {
-  latilongiRef.innerHTML = `<span id="latgap">${latitude}</span> <span id="longgap">${longitude}</span>`;
+  latilongiRef.innerHTML = `<span id="latgap">Lat : ${latitude}</span> <span id="longgap">Long : ${longitude}</span>`;
 }
 
 async function currentWeather(latitude, longitude) {

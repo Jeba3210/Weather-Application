@@ -1,6 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@1&family=Inclusive+Sans:ital@1&family=Inter&family=Kaushan+Script&family=Lato&family=Mulish&family=Nunito&family=Nunito+Sans:opsz@6..12&family=Oswald&family=Playfair+Display&family=Playfair:opsz@5..1200&family=Poppins&family=Roboto&family=Roboto+Slab&display=swap');
+
+
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Poppins', sans-serif;
 }
 #top{
     background-color: #360369;
@@ -16,6 +21,7 @@
  #heading p{
     color: white;
     font-size: 1.2rem;
+    margin-bottom: 20px;
 } 
 
 #bottom{
@@ -26,14 +32,19 @@
 }
 
 #latgap{
+    color: white;
+    font-size: 1.4rem;
     padding: 10px 60px;
   background-color: #270846;
   margin-right: 15px;
+  margin-top: 10px;
   border-radius: 10px;
 }
 
 #longgap {
-    padding: 10px 40px;
+    color: white;
+    font-size: 1.4rem;
+    padding: 10px 60px;
     background-color: #270846;
     border-radius: 10px;
   }
@@ -41,7 +52,7 @@
 
 .maps{
         margin-left: 20vw;
-        margin-top: 5vw;
+        margin-top: 3.5vw;
         /* padding: 100px; */
 }
 
@@ -59,33 +70,10 @@
 
    #details{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     border-radius: 10px;
     margin-right: 10px;
     flex-wrap: wrap;
     flex-direction: row;
    }
-
-   #bottom{
-    width: 90vw;
-    height: 25vh;
-    margin: auto; 
-   }
-
-   #bottom h2{
-    color: #360369;
-    margin-top: 15px;
-    margin-left: 30px;
-    font-size: 24px;
-
-   }
-
-   #heading h2{
-    margin-top: 30px;
-    margin-left: 30px;
-   }
-
-   #text , #latlong{
-    margin-top: 30px;
-    margin-left: 30px;
-   }
+ 

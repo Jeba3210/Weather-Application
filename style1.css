@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#top{
+    background-color: #360369;
+    height: 80vh;
+    padding-left: 60px;
+    padding-top: 60px;
+}
+#heading h2{
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 10px;
+} 
+ #heading p{
+    color: white;
+    font-size: 1.2rem;
+} 
+
+#bottom{
+    color: #360369;
+    font-size: 2.2rem ;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+#latgap{
+    padding: 10px 60px;
+  background-color: #270846;
+  margin-right: 15px;
+  border-radius: 10px;
+}
+
+#longgap {
+    padding: 10px 40px;
+    background-color: #270846;
+    border-radius: 10px;
+  }
+  
+
+.maps{
+        margin-left: 20vw;
+        margin-top: 5vw;
+        /* padding: 100px; */
+}
+
+#data{
+    height: 7vh;
+    width: 18vw;
+    border-radius: 10px;
+    background-color:#360369;
+    color: #ffffff;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+   }
+
+   #details{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin-right: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+   }
+
+   #bottom{
+    width: 90vw;
+    height: 25vh;
+    margin: auto; 
+   }
+
+   #bottom h2{
+    color: #360369;
+    margin-top: 15px;
+    margin-left: 30px;
+    font-size: 24px;
+
+   }
+
+   #heading h2{
+    margin-top: 30px;
+    margin-left: 30px;
+   }
+
+   #text , #latlong{
+    margin-top: 30px;
+    margin-left: 30px;
+   }
